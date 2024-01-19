@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  netclip:
+    image: ${DOCKER_REGISTRY-}netclip
+    build:
+      context: .
+      dockerfile: Netclip/Dockerfile

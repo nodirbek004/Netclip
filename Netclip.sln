@@ -5,11 +5,13 @@ VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Netclip", "Netclip\Netclip.csproj", "{948230F4-33C0-44F6-833F-786D2E284B2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netclip.Application", "Netclip.Application\Netclip.Application.csproj", "{4B226980-2D86-4726-AE00-C6AF8CC01676}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Netclip.Application", "Netclip.Application\Netclip.Application.csproj", "{4B226980-2D86-4726-AE00-C6AF8CC01676}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netclip.Infrastructure", "Netclip.Infrastructure\Netclip.Infrastructure.csproj", "{F6C4B8BD-1CEC-49A9-AA63-70D355C2F741}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Netclip.Infrastructure", "Netclip.Infrastructure\Netclip.Infrastructure.csproj", "{F6C4B8BD-1CEC-49A9-AA63-70D355C2F741}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netclip.Domain", "Netclip.Domain\Netclip.Domain.csproj", "{FA0158E5-41B2-40C5-A977-0B27B7B3B468}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Netclip.Domain", "Netclip.Domain\Netclip.Domain.csproj", "{FA0158E5-41B2-40C5-A977-0B27B7B3B468}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{84827D5D-FA49-44FF-B6BD-0B97F7C9B763}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{FA0158E5-41B2-40C5-A977-0B27B7B3B468}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA0158E5-41B2-40C5-A977-0B27B7B3B468}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA0158E5-41B2-40C5-A977-0B27B7B3B468}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84827D5D-FA49-44FF-B6BD-0B97F7C9B763}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84827D5D-FA49-44FF-B6BD-0B97F7C9B763}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84827D5D-FA49-44FF-B6BD-0B97F7C9B763}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84827D5D-FA49-44FF-B6BD-0B97F7C9B763}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

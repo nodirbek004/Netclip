@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.EntityFrameworkCore;
+using Netclip.Domain.Models;
 
-namespace Netclip.Application.Absreactions
+namespace Netclip.Application.Absreactions;
+
+public interface IAppDbContext
 {
-    public interface IAppDbContext
-    {
-    }
+    DbSet<Order> Orders { get; set; }
+    public Task<int> SaveChangesAsync(CancellationToken cancellationToken);
+
 }

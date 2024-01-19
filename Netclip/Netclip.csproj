@@ -6,11 +6,21 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>d355aa02-6e3b-4eb6-a33a-a61b6bf21f6f</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.19">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.18.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Netclip.Application\Netclip.Application.csproj" />
+    <ProjectReference Include="..\Netclip.Infrastructure\Netclip.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
