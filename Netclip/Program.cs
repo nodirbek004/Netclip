@@ -18,7 +18,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy(name: "qales",
                       policy =>
                       {
-                          policy.WithOrigins("http://localhost:4200")
+                          policy.WithOrigins("http://localhost:4200", "http://5.182.26.53")
                           .AllowAnyHeader()
                           .AllowAnyMethod();
                       });
@@ -26,15 +26,9 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
 
-
-app.UseHttpsRedirection();
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.UseCors("qales");
 

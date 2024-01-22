@@ -13,6 +13,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Netclip.Domain", "Netclip.D
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{84827D5D-FA49-44FF-B6BD-0B97F7C9B763}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCLip.TelegramBot", "NetCLip.TelegramBot\NetCLip.TelegramBot.csproj", "{9781241B-AD0C-49F7-BB7A-5CF394F678D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetclipJWT", "..\NetclipJWT\NetclipJWT.csproj", "{9A110F9C-2C77-4395-B21F-69CDF69231C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{84827D5D-FA49-44FF-B6BD-0B97F7C9B763}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84827D5D-FA49-44FF-B6BD-0B97F7C9B763}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84827D5D-FA49-44FF-B6BD-0B97F7C9B763}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9781241B-AD0C-49F7-BB7A-5CF394F678D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9781241B-AD0C-49F7-BB7A-5CF394F678D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9781241B-AD0C-49F7-BB7A-5CF394F678D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9781241B-AD0C-49F7-BB7A-5CF394F678D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A110F9C-2C77-4395-B21F-69CDF69231C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A110F9C-2C77-4395-B21F-69CDF69231C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A110F9C-2C77-4395-B21F-69CDF69231C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A110F9C-2C77-4395-B21F-69CDF69231C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
